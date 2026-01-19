@@ -1,0 +1,3 @@
+NumPy stands for Numerical Python. It is one of the most important libraries in Python for working with numbers and data.
+It is widely used in data analysis, machine learning, scientific computing, and image processing.
+NumPy is fast, memory efficient, and designed to handle large datasets easily.

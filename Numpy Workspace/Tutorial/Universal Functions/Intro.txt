@@ -1,0 +1,43 @@
+Universal Functions, or ufuncs, are built-in NumPy functions that operate element by element on arrays.
+They work on arrays of any shape and are implemented in C, so they are very fast.
+
+Common ufunc categories:
+    • Math: add, subtract, multiply, divide
+    • Trigonometric: sin, cos, tan
+    • Comparison: greater, less, equal
+    • Statistical: minimum, maximum
+
+------------------------------------------------------------------------------------------------------------------------
+Why Use Universal Functions?
+
+1. Speed
+They are much faster than Python loops because they run at a low level.
+
+2. Clean code
+No need for for loops. Code is short and readable.
+
+3. Works on arrays of any size
+Same function works for 1D, 2D, or higher dimensions.
+
+4. Broadcasting support
+They automatically handle operations between arrays of different shapes.
+
+
+------------------------------------------------------------------------------------------------------------------------
+What is Vectorization?
+
+Vectorization means performing operations on entire arrays at once, instead of looping through elements one by one.
+In NumPy, vectorization is achieved using ufuncs and broadcasting.
+
+
+Vectorized code:
+    • Runs faster
+    • Uses less code
+    • Is easier to read
+
+
+------------------------------------------------------------------------------------------------------------------------
+How Universal Functions and Vectorization are Related
+    • ufuncs enable vectorization
+    • Vectorization is the concept
+    • ufuncs are the tool that make it possible
