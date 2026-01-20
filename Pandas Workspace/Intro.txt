@@ -1,0 +1,60 @@
+Pandas is one of the most important Python libraries for data analysis and data handling.
+If you are working with data in Python, Pandas is something you will use almost daily.
+
+At a high level, Pandas helps you:
+    • Read data from files like CSV, Excel, SQL databases, and JSON
+    • Clean messy or missing data
+    • Analyze and transform datasets
+    • Perform fast calculations and aggregations
+    • Prepare data for visualization or machine learning
+
+Why Pandas is so popular:
+    • Built on top of NumPy, so it is fast and efficient
+    • Very easy to work with structured data (rows and columns)
+    • Powerful functions for filtering, grouping, and merging data
+    • Widely used in data analysis, data science, and analytics roles
+
+
+
+Core Data Structures in Pandas
+
+1. Series
+A one-dimensional labeled array.
+Think of it as a single column of data with an index.
+
+Example:
+    • A list of marks
+    • Daily temperatures
+    • Sales numbers for one product
+
+2. DataFrame
+A two-dimensional table made of rows and columns.
+This is the most commonly used Pandas object.
+
+Example:
+    • Excel-like tables
+    • SQL query results
+    • CSV datasets
+
+
+
+Where Pandas is used
+    • Data cleaning and preprocessing
+    • Exploratory Data Analysis (EDA)
+    • Financial and business analytics
+    • Preparing data for machine learning models
+    • Reporting and dashboard support
+
+
+
+What you should know before starting
+    • Basic Python (variables, lists, dictionaries)
+    • Basic understanding of data (rows, columns, tables)
+
+
+
+What we will cover next in this tutorial
+    • Installing and importing Pandas
+    • Creating Series and DataFrames
+    • Reading data from CSV and Excel
+    • Basic operations like filtering, sorting, and grouping
