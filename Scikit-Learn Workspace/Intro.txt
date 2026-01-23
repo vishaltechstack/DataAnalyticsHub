@@ -1,0 +1,49 @@
+scikit-learn is a Python library for machine learning built on top of NumPy, SciPy, and Matplotlib.
+
+It is used for:
+    • Data preprocessing
+    • Supervised learning
+    • Unsupervised learning
+    • Model evaluation
+    • Model selection
+
+It follows a consistent API, which makes learning and switching models easy.
+
+Installation:
+pip install scikit-learn
+
+
+Core API Design (Very Important)
+
+Almost everything in scikit-learn follows this pattern:
+    • Create model
+    • Fit model
+    • Predict
+    • Evaluate
+
+Common Methods:
+    • fit(X, y)
+    • predict(X)
+    • fit_transform(X)
+    • transform(X)
+    • score(X, y)
+    • get_params()
+    • set_params()
+
+
+Commonly Used Base Classes:
+    • BaseEstimator
+    • TransformerMixin
+    • ClassifierMixin
+    • RegressorMixin
+Used when creating custom models or transformers.
+
+Typical End-to-End Workflow:
+    • Load data
+    • Clean data
+    • Split data
+    • Scale features
+    • Train model
+    • Evaluate
+    • Tune
+    • Save model
