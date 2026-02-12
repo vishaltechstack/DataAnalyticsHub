@@ -1,0 +1,30 @@
+Polars is a DataFrame library built in Rust with a Python API.
+It is designed for speed, low memory usage, and clean syntax.
+
+Key ideas:
+    • Column-based operations
+    • Lazy execution (optional but powerful)
+    • Very fast for large datasets
+    • Great alternative to Pandas for analytics and data engineering
+
+Install it first:
+    pip install polars
+
+Polars vs Pandas (quick comparison):
+    • Polars is faster for large datasets
+    • Cleaner syntax with expressions
+    • Lazy execution is a big advantage
+    • Pandas still better for quick ad-hoc work and Excel-heavy workflows
+
+When to Use Polars (real advice)
+
+Use Polars if:
+    • Data is large
+    • Performance matters
+    • You are building pipelines
+    • You want cleaner, predictable transformations
+
+Stick to Pandas if:
+    • Heavy Excel usage
+    • Very small datasets
+    • Existing Pandas-only codebase

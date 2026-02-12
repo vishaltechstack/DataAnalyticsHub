@@ -1,0 +1,47 @@
+🔢 NumPy (Numerical Python) is a core Python library used for numerical computing.
+It provides support for large, multi-dimensional arrays and matrices,
+along with a rich set of mathematical functions to operate on them efficiently.
+
+👉 NumPy is the foundation for libraries like Pandas, SciPy, Scikit-learn, TensorFlow, and PyTorch.
+
+🚀 Why NumPy?
+-------------
+Python lists are flexible, but they are slow and memory-inefficient for numerical operations.
+NumPy solves this by:
+    • Storing data in contiguous memory
+    • Using C-optimized code under the hood
+    • Enabling vectorized operations (no loops!)
+
+⭐ Key Features of NumPy
+------------------------
+    • N-Dimensional Array (ndarray)
+    • Fast mathematical operations
+    • Broadcasting
+    • Linear algebra support
+    • Random number generation
+    • Integration with C/C++ & Fortran
+
+📦 Installing NumPy
+-------------------
+pip install numpy
+
+📌 Importing NumPy
+------------------
+import numpy as np
+
+📊 NumPy Array vs Python List
+-----------------------------
+Feature	        Python List	           NumPy Array
+
+Speed	        Slower	               Very Fast
+Memory	        More	               Less
+Data Type	    Mixed	               Same type
+Math Ops	    Loop required	       Vectorized
+
+🎯 Real-World Use Cases
+-----------------------
+    • Data Analysis & Data Science
+    • Machine Learning & AI
+    • Image Processing
+    • Scientific Computing
+    • Financial Modeling
